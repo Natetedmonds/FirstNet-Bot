@@ -30,11 +30,11 @@ def iotCancelRequest():
   time.sleep(2)
   elm = browser.find_element_by_id("username")
   elm.clear()
-  elm.send_keys("nathan.edmonds@kub.org")
+  elm.send_keys("youremail@domain.org")
 
   elm = browser.find_element_by_id("password")
   elm.clear()
-  elm.send_keys("Pidgey015!")
+  elm.send_keys("yourpass")
   elm.send_keys(Keys.RETURN)
 
   try:
