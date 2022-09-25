@@ -19,7 +19,7 @@ def iotCancelRequest():
   browser = webdriver.Chrome(ChromeDriverManager().install())#, chrome_options = options)
   #browser = webdriver.Firefox()
   browser.maximize_window()
-  browser.get("https://localcontrol.firstnet.att.com/admin")
+  browser.get("someurl.com")
 
   try:
     text = WebDriverWait(browser, 10).until(xC.presence_of_element_located((By.ID, "username")))
