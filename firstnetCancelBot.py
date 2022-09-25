@@ -57,7 +57,7 @@ def iotCancelRequest():
   time.sleep(3)
   browser.execute_script("window.open('');")
   browser.switch_to.window(browser.window_handles[1])
-  browser.get("https://cc19.jasper.com/provision/ui/terminals/sims/sims.html")
+  browser.get("someurlpresent.org")
   print("IOT Page Loaded")
 
   time.sleep(2)
